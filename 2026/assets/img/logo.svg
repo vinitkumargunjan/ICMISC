@@ -1,0 +1,65 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ICMISC 2026 logo">
+  <defs>
+    <linearGradient id="icmiscGrad" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1e3a8a"/>
+      <stop offset="0.55" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="icmiscCity" x1="0" y1="60" x2="0" y2="104" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e0f2fe"/>
+      <stop offset="1" stop-color="#7dd3fc"/>
+    </linearGradient>
+    <radialGradient id="icmiscGlow" cx="0.5" cy="0.32" r="0.7">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Rounded hexagon shield -->
+  <path d="M60 4 L102 27 V73 L60 96 L18 73 V27 Z" fill="url(#icmiscGrad)"/>
+  <path d="M60 4 L102 27 V73 L60 96 L18 73 V27 Z" fill="url(#icmiscGlow)"/>
+  <path d="M60 4 L102 27 V73 L60 96 L18 73 V27 Z" fill="none" stroke="#bae6fd" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <!-- IoT signal arcs (top) -->
+  <g stroke="#a5f3fc" stroke-width="2.4" fill="none" stroke-linecap="round" opacity="0.9">
+    <path d="M48 24 a16 16 0 0 1 24 0"/>
+    <path d="M53 30 a9 9 0 0 1 14 0"/>
+  </g>
+  <circle cx="60" cy="36" r="2.6" fill="#ecfeff"/>
+
+  <!-- Neural network / IoT nodes + links (ML) -->
+  <g stroke="#bae6fd" stroke-width="1.4" opacity="0.85">
+    <line x1="36" y1="50" x2="60" y2="42"/>
+    <line x1="36" y1="50" x2="58" y2="60"/>
+    <line x1="84" y1="50" x2="60" y2="42"/>
+    <line x1="84" y1="50" x2="62" y2="60"/>
+    <line x1="60" y1="42" x2="58" y2="60"/>
+    <line x1="36" y1="50" x2="84" y2="50"/>
+  </g>
+  <g fill="#ecfeff">
+    <circle cx="60" cy="42" r="3.4"/>
+    <circle cx="36" cy="50" r="3.2"/>
+    <circle cx="84" cy="50" r="3.2"/>
+    <circle cx="58" cy="60" r="2.8"/>
+  </g>
+
+  <!-- Smart city skyline (bottom) -->
+  <g fill="url(#icmiscCity)">
+    <rect x="34" y="74" width="8" height="14" rx="1"/>
+    <rect x="45" y="66" width="9" height="22" rx="1"/>
+    <rect x="57" y="70" width="7" height="18" rx="1"/>
+    <rect x="67" y="62" width="9" height="26" rx="1"/>
+    <rect x="79" y="72" width="8" height="16" rx="1"/>
+  </g>
+  <!-- lit windows -->
+  <g fill="#0c4a6e" opacity="0.6">
+    <rect x="47.5" y="70" width="1.6" height="1.6"/>
+    <rect x="50.5" y="70" width="1.6" height="1.6"/>
+    <rect x="47.5" y="74" width="1.6" height="1.6"/>
+    <rect x="69.5" y="66" width="1.6" height="1.6"/>
+    <rect x="72.5" y="66" width="1.6" height="1.6"/>
+    <rect x="69.5" y="70" width="1.6" height="1.6"/>
+  </g>
+  <!-- ground line -->
+  <rect x="30" y="88" width="60" height="2" rx="1" fill="#7dd3fc" opacity="0.8"/>
+</svg>
